@@ -1,0 +1,9 @@
+table  {
+  color:MediumSeaGreen;
+  border-radius: 15px;
+  border: 10px solid Yellow;
+ }
+
+ [colspan="2"] {
+color:red;
+   }
