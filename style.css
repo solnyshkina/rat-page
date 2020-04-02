@@ -1,9 +1,109 @@
+body{
+  background-image:url(2.jpg);
+}
+
 table  {
   color:MediumSeaGreen;
-  border-radius: 15px;
-  border: 10px solid Yellow;
+  border-radius: 10px;
+  border: 5px solid rgba(8, 236, 240, 0.089);
  }
 
  [colspan="2"] {
-color:red;
+color:rgb(117, 81, 247);
    }
+
+ a  {
+  color: rgb(198, 3, 247);  
+  font-size: 22px;
+ }
+
+ div {
+   color: #00BFFF;
+ }
+
+ #makaroshki {
+   color: cornflowerblue;
+   font-size: 20px;
+ }
+
+ .mouse{
+   color: lightslategrey;
+ }
+
+ 
+
+ .vasya{
+  color: rgb(248, 150, 166);
+ }
+
+ .basya {
+  color: rgb(204, 57, 81);
+ }
+
+ .message{
+   color: rgb(73, 34, 30);
+   background-color: rgb(133, 171, 241);
+   border: 5px solid rgb(204, 57, 81) ;
+   font-size: 25px;
+   margin: 20px;
+   margin-right: 1100px;
+   padding: 5px;
+
+
+ }
+
+ .cool {
+   background-color: yellow;
+   width: 330px;
+ }
+
+ .fail {
+   background-color: yellowgreen;
+   width: 330px;
+ }
+
+
+ .message:hover{
+  border: 5px solid  rgb(0, 132, 255);
+ }
+
+ li:hover{
+color: rgb(13, 240, 240);
+ }
+ div:hover{
+   color: red;
+ }
+ .cool:hover{
+   color: teal;
+ }
+
+ #test{
+transition:1s all;
+   background-color: teal;
+   color: turquoise;
+   
+   padding: 10px;
+   border: 2px dashed #FFDAB9  ;
+   border-radius: 20px;
+box-shadow: 3px 3px 7px tomato;
+width: 99px;
+text-align: center;
+font-size: 15px;
+
+
+   
+
+ }
+
+ .mouse:hover{
+   opacity:0.3;
+ }
+
+ #opa{
+   transform: rotate(30deg);
+ }
+
+ #test:hover{
+   transform: rotate(45deg) scale(0.3) ;
+   background-color: rgb(248, 150, 166);
+ }
